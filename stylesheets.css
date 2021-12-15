@@ -1,0 +1,255 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: -120px ;
+    padding-bottom: -120px;
+}
+.container{
+    background-image:linear-gradient(rgba(63, 55, 55, 0.5) ,rgba(51, 46, 46, 0.5)),url(bgimage.png) ;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center 0;
+    width: 100%;
+    height: 100vh;
+    font-weight: 600;
+    font-size: 16px;
+    color: aliceblue;
+    
+}
+.container.header{
+    margin-top: 0%;
+}
+.container.main{
+    margin-top: 50%;
+    padding-top: 40px;
+    font-size: 170;
+
+}
+#button{
+    padding:30px;
+    border-radius: 10px;
+    background-color: rgb(205, 205, 226);
+    color:azure;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.job{
+    font-size: 50px;
+}
+.but{
+    margin-left: 200px;
+}
+.content{
+    margin-left: 200px;
+    margin-right: 35px ;
+    padding: 145px;
+    font-size: 130;
+    
+
+}
+.head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para{
+    margin-top: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
+   color:black;
+}
+.centre{
+    text-align: center;
+}
+element{
+    display:inline;
+}
+.box1{
+    margin-top: -100px;
+    padding:0;
+    border:0;
+    display:inline-block;
+    height:900px;
+    width:27%;
+    border: none;
+    background-color: rgb(235, 229, 229);
+    position: relative;
+    top: -530px;
+}
+nav{
+    
+   background-color: rgb(31, 17, 66);
+    color: white;
+    text-decoration: none;
+    padding-top:0.5vh;
+    padding-bottom: 5vh;
+}
+#hello{
+    margin-left: 120px;
+}
+#post{
+    margin-left: 120px;
+    background-color: rgb(113, 113, 209);
+    color:white;
+    padding: 10 30px;
+    border-radius: 5px;
+}
+nav li{
+    display:inline-flex;
+    color: white;
+    padding :0 20px;
+    float:right;
+    align-items: center;
+  
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    text-align:right;
+    
+}
+nav ul li a{
+    transition :all 0.3s ease 0s;
+}
+
+nav ul li a:hover{
+    color:rgb(99, 42, 165);
+}
+
+
+.box2{
+    margin:0;
+    display: inline-block;
+    width:69%;
+    height:1000px;
+}
+.head1{
+    margin-top: 0%;
+    padding:0;
+    margin-left: 10%;
+}
+.img{
+    margin-left:30px;
+    margin-top: 0px;
+    padding: 20px;
+}
+.section{
+    margin-top: 0;
+    margin-left: 20px;
+
+}
+.fname{
+    padding-left: 25px
+}
+.boxa{
+   
+    display: inline-block;
+    box-sizing: border-box;
+    height:50px;
+    width:35%;
+    position:relative;
+    left:30px;
+    top:-5px;
+}
+.boxb{
+   
+    display: inline-block;
+    box-sizing: border-box;
+    height:50px;
+    width:30%;
+    position:relative;
+    left:50px;
+}
+.l_val{
+    padding-right: 70px;
+}
+.login{
+    width:300px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 430px;
+    padding-top:2px;
+    padding-left: 20px;
+    width:370px;
+    height:350px;
+    padding-bottom: 120px;
+    background:#d5e4ec;
+    border-radius: 15px;;
+
+}
+
+h2{
+    text-align: center;
+    font-family:"Verdana";
+    color:#277582;
+    font-size:30x;
+    padding:40px;
+}
+
+label{
+    color:#277582;
+    font-size: 17px;
+}
+
+#Uname{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:300px;
+    height:30px;
+    border:none;
+    border-radius:3px;
+    padding-left: 8px;
+}
+
+#Pass{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:300px;
+    height:30px;
+    border:none;
+    border-radius:3px;
+    padding-left: 8px;
+}
+#log{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:300px;
+    height:30px;
+    border:none;
+    border-radius:17px;
+    padding-left:7px;
+    color:blue;
+}
+
+span{
+    color:white;
+    font-size:20px;
+}
+
+.box{
+    background-color:white;
+}
+.ccname{
+    position:relative;
+    left:30px;
+}
+.cname{
+    padding-right: 380px;
+}
+#register{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+#login{
+    padding-right: 30px;
+    padding-left: 20px;
+}
+#submit{
+    margin-left: 500px;
+   
+    padding-top: 4px;
+    background-color: rgb(91, 91, 175);
+    color:white;
+    border-radius: 5px;
+}
+/* #profile{
+    margin-bottom: -120px ;
+    padding-bottom: -120px;
+} */

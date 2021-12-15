@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login In Page</title>
+        <link rel="stylesheet" href="stylesheets.css" tpe="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="navbar">
+                    <nav>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <!-- <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li> -->
+                        </ul> 
+                    </nav>
+                </div>
+            </header>
+        <div class="login">
+            <h2>Log-In</h2>
+            <form id="login" method="get" action="login.php">
+                <label>
+                    <b>User Name</b>
+                </label>
+                <input type="text" name="Uname" id="Uname" placeholder="Username">
+                <br><br>
+                <label>
+                    <b>Password</b>
+                </label>
+                <input type="password" name="Pass" id="Pass" placeholder="Password">
+                <br><br>
+                <input type="button" name="log" id="log" value="Log In Here">
+                <br><br>
+                <input type="checkbox" id="check">
+                <span>Remember me</span>
+                <br><br>
+                <a class="box" href="#"> Forgot Password</a>
+                <br>
+                <p>Not yet registered<a class="box" href="register.html"> Register</a></p>      
+            </form>
+        </div>
+    </body>
+</html>
